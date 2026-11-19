@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="paddleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="ballGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+  <!-- Paddle Body -->
+  <rect x="20" y="15" width="46" height="52" rx="14" fill="url(#paddleGrad)" stroke="#047857" stroke-width="3"/>
+  <line x1="26" y1="22" x2="60" y2="22" stroke="#34d399" stroke-width="2" stroke-linecap="round"/>
+  <!-- Paddle Handle -->
+  <path d="M38 67 L38 92 C38 95 48 95 48 92 L48 67 Z" fill="#334155" stroke="#1e293b" stroke-width="2"/>
+  <line x1="38" y1="74" x2="48" y2="74" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="38" y1="81" x2="48" y2="81" stroke="#64748b" stroke-width="1.5"/>
+  <!-- Pickleball (Yellow with holes) -->
+  <circle cx="68" cy="38" r="18" fill="url(#ballGrad)" stroke="#ca8a04" stroke-width="2"/>
+  <circle cx="63" cy="33" r="2.5" fill="#ca8a04"/>
+  <circle cx="73" cy="32" r="2.5" fill="#ca8a04"/>
+  <circle cx="68" cy="40" r="2.5" fill="#ca8a04"/>
+  <circle cx="61" cy="44" r="2.5" fill="#ca8a04"/>
+  <circle cx="72" cy="45" r="2.5" fill="#ca8a04"/>
+</svg>
